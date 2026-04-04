@@ -13,7 +13,21 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ['Inter', 'sans-serif'],
+      },
       colors: {
+        chat: {
+          bg: "hsl(var(--chat-bg))",
+          sent: "hsl(var(--chat-sent))",
+          "sent-foreground": "hsl(var(--chat-sent-foreground))",
+          received: "hsl(var(--chat-received))",
+          "received-foreground": "hsl(var(--chat-received-foreground))",
+          header: "hsl(var(--chat-header))",
+          "header-foreground": "hsl(var(--chat-header-foreground))",
+        },
+        "sidebar-hover": "hsl(var(--sidebar-hover))",
+        online: "hsl(var(--online-indicator))",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
