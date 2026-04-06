@@ -11,7 +11,6 @@ const firebaseConfig = {
   storageBucket: "koolachat-42160.firebasestorage.app",
   messagingSenderId: "678854384196",
   appId: "1:678854384196:web:247f45166933753791594f",
-  measurementId: "G-29J097B74R"
 };
 
 const app = initializeApp(firebaseConfig);
