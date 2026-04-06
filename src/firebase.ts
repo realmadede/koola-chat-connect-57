@@ -5,12 +5,13 @@ import { getFirestore } from "firebase/firestore";
 // ⚠️ Replace with your own Firebase project config
 // Go to Firebase Console → Project Settings → Your apps → Firebase SDK snippet
 const firebaseConfig = {
-  apiKey: "[GCP_API_KEY]",
-  authDomain: "koolachat-42160.firebaseapp.com",
-  projectId: "koolachat-42160",
-  storageBucket: "koolachat-42160.firebasestorage.app",
-  messagingSenderId: "678854384196",
-  appId: "1:678854384196:web:247f45166933753791594f",
+  apiKey: "AIzaSyDbL9niE95TqFKASSoSKzElFNhGjopVRAo",
+  authDomain: "koola-chat.firebaseapp.com",
+  projectId: "koola-chat",
+  storageBucket: "koola-chat.firebasestorage.app",
+  messagingSenderId: "229868209322",
+  appId: "1:229868209322:web:f18a2d3f4b219b72063cd3",
+   measurementId: "G-LS9F453S4K"
 };
 
 const app = initializeApp(firebaseConfig);
