@@ -120,5 +120,3 @@ This project was developed as part of a team assignment to build a WhatsApp-like
 
 This project is for educational purposes.
 
-
-TODO: Document your project here
